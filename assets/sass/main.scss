@@ -1,0 +1,21 @@
+// Abstracts
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+// Base
+@import "base/reset";
+@import "base/typography";
+@import "base/animation";
+
+// Components
+@import "components/navigations";
+@import "components/inputs";
+@import "components/buttons";
+
+// Layout
+@import "layout/header";
+@import "layout/main";
+@import "layout/footer";
+
+// Vendors
+@import "vendors/bootstrap-4.6.0/bootstrap.scss";

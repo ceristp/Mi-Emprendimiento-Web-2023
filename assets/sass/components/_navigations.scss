@@ -1,0 +1,31 @@
+.navbar {
+    background-color: $black;
+}
+
+.navbar-nav__link {
+    color: $white;
+    font-weight: $bold;
+    padding: .5em;
+    &:hover {
+        color: $orange;
+        text-decoration: none;
+    }
+}
+
+.navbar-nav__item {
+    padding: .2em;
+    font-family: $poppins;
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: transparent;
+    color: $white;
+    &:hover {
+        color: $orange;
+        text-decoration: none;
+    }
+}
+
+.fa-bars {
+    font-size: $xx-large;
+}

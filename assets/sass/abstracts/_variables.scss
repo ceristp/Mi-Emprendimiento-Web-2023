@@ -1,0 +1,37 @@
+// Color
+$white: #ffffff;
+$gray: #505050;
+$black: #000000;
+$sable: #060606;
+
+$charcoal: #2e1503;
+$tangerine: #ffaf6d;
+$orange: #ffa500;
+
+// Tipografia
+$poppins: 'Poppins', sans-serif;
+$ubuntu: 'Ubuntu', sans-serif;
+
+// Font Weight
+$regular: 400;
+$bold: 700;
+
+// Font size
+$xxxxx-large: 50px;
+$xxxx-large: 45px;
+$xxx-large: 40px;
+$xx-large: 35px;
+$x-large: 30px;
+$large: 20px;
+$medium: 16px;
+$small: 14px;
+$x-small: 12px;
+
+// Breakpoints sacado de bootstraps
+$min-xs: 1px;
+$min-sm: 576px;
+$min-md: 768px;
+$min-lg: 992px;
+$min-xl: 1200px;
+$min-xxl: 1400px;
+$breakpoints: ( 'xs': (min-width: $min-xs), 'sm': (min-width: $min-sm), 'md': (min-width: $min-md), 'lg': (min-width: $min-lg), 'xl': (min-width: $min-xl), 'xxl': (min-width: $min-xxl)) !default;
